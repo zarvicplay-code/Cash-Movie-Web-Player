@@ -448,6 +448,8 @@ export default function App() {
             onPrevChannel={handlePrevChannel}
             onOpenEpg={() => setIsEpgOpen(true)}
             onOpenActivation={() => setIsActivationOpen(true)}
+            onOpenMovies={() => setVodModalType('movie')}
+            onOpenSeries={() => setVodModalType('series')}
           />
         )}
       </div>
