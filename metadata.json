@@ -1,0 +1,8 @@
+{
+  "name": "Cash Movie Web Player",
+  "description": "Reprodutor de IPTV moderno para Android, TV Box e Web com suporte a M3U, Xtream Codes, EPG e canais ao vivo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

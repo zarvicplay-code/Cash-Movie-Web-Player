@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#b81419" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Dark Rounded Squircle Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
+  <rect x="16" y="16" width="480" height="480" rx="112" stroke="#b81419" stroke-width="4" stroke-opacity="0.3"/>
+
+  <!-- Iconic Red 'O' from Cash Movie -->
+  <g filter="url(#glow)">
+    <circle cx="256" cy="256" r="160" fill="none" stroke="#B81419" stroke-width="50"/>
+    <!-- White Play Triangle -->
+    <polygon points="230,195 230,317 330,256" fill="#ffffff"/>
+  </g>
+</svg>

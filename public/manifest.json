@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Cash Movie Player",
+  "short_name": "CashMovie",
+  "description": "Cash Movie - Reprodutor IPTV estilo IBO Pro Player com ativação por MAC ID e Chave do Dispositivo.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
+  "categories": ["entertainment", "multimedia", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
