@@ -1,22 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
-  <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="100%" stop-color="#020408"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#b81419" flood-opacity="0.4"/>
-    </filter>
-  </defs>
-
-  <!-- Dark Rounded Squircle Background -->
-  <rect width="512" height="512" rx="128" fill="url(#bgGrad)"/>
-  <rect x="16" y="16" width="480" height="480" rx="112" stroke="#b81419" stroke-width="4" stroke-opacity="0.3"/>
-
-  <!-- Iconic Red 'O' from Cash Movie -->
-  <g filter="url(#glow)">
-    <circle cx="256" cy="256" r="160" fill="none" stroke="#B81419" stroke-width="50"/>
-    <!-- White Play Triangle -->
-    <polygon points="230,195 230,317 330,256" fill="#ffffff"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAdVBMVEVHcEz///+4Dg64DQ0KBQW4Dg4AAACqDAy4Dg4AAACDCgpTBgYAAAC4DQ24Dg4AAAAAAABNTU24Dg64Dg4AAAD///8AAAD///////////////////////+4DQ12dnb29vZlZWXa2tomJiawsLCcnJzi4+PDw8NAw6mNAAAAHHRSTlMARpD2/EadI3TYFQpgzq6K6P1e4zoVwHDkk8gsBePB+AAAAdxJREFUWIXtldmCgjAMRauUKouCuIzOVGUR/v8Th7S0TYrIqw/cJ4X0kN4mKWOLFi1a9HVKL/zwcCrrSJxYqDWOjvWLxC3PH5Wkeja12N2VNiPA3nshDk/5Rg3XcesR4E4B4mG+aqX/t5oQ+Ou3FHAqVfTrwCMrrrfU8gCCCw9w7KFbC0g4hFY8I1s9RSqtF4d0d3R9CNsqLCB7wfocHD2fbVDCMpUYV4ZRG9UTl0EOG65j+LmSPyhONJBCuukj93h9onJygAP4LZgGyF+URA2pXWDHd9/CAgEg0/JkAFLebGTUtW2Vq9AtAgTqXCigZg4gnytjpOiVqVM/ehb6AI4BZB/GNFfPUJ7xDEASMxmxMR6OdQYgrytEgI+axlkP6cwBJAYUyMZgKO0ZwI0RBbYhLOsj4PpH19u8rYUfj9F+fiOyTKTGxh31c7qQ3Oejpuu6nHzYpTJVyugATSmDhupBNTXRTLiEhmbCNqLjsIAk1e0MhBWuH9POzsZC9VXiZ/B2oCTpMFCy4YEqQFySCJDqkdagkZbXeqRV3CKhIY5otmzvn4aqNEM1toBQz1HblhjQj/XWH+kqJ+5uDmUjnq8EMHWx4PUsXIPI3xi9hqutpFfb+EJatGjRoq/WP6T3VEwE4a1BAAAAAElFTkSuQmCC" x="0" y="0" width="64" height="64" />
 </svg>
